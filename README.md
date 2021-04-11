@@ -15,9 +15,18 @@ Clone the repository or download the zip and expand in an empty directory.
 
 ## Usage
 
-The file `collapser.js` contains the class Collapser. Call the method `toggleSelectionCollapse()` from your `Ace` editor container when you want to collapse selections. Calling the method when no text is selected has no effect on the appearance of the edit session.
+The file `collapser.js` contains the class Collapser. In your editor container, instantiate with
+```
+let mycollapser = new Collapser(editor);
+```
+where `editor` is the Ace editor you created via `ace.edit()`.
 
-Note: to load `collapser.js` as an es6 module, uncomment the export statement (the last line) in said file.
+Then call the method `toggleSelectionCollapse()` from your `Ace` editor container when you want to collapse selections. Calling the method when no text is selected has no effect on the appearance of the edit session.
+
+Note: to load `collapser.js` as an es6 module, uncomment the export statement (the last line) in said file and add the following import to your editor container (assuming `collapser.js` is in the same directory as the container):
+```
+import { Collapser } from './collapser.js';
+```
 
 ## Example
 
