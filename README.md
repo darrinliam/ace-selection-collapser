@@ -19,4 +19,4 @@ The file `collapser.js` contains the class Collapser. Call the method `toggleSel
 
 ## Example
 
-To see the utility in action, open `collapser.html` in your favorite browser. This example, complete with a `JSON` tester file, provides two buttons: one to open the search box, and another to collapse selections. Virst, search for some text, preferably a string that appears multiple times, like "donkey". Then click on the "Collapse search hits/multiselections" button.
+To see the utility in action, open `examples/collapser.html` in your favorite browser. This example, complete with a `JSON` tester file, provides two buttons: one to open the search box, and another to collapse selections. Virst, search for some text, preferably a string that appears multiple times, like "donkey". Then click on the "Collapse search hits/multiselections" button.
