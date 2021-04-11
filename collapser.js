@@ -88,3 +88,5 @@ class Collapser {
   }
 }
 
+// To load as an es6 module, uncomment the following export: 
+//export { Collapser }; 

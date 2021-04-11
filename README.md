@@ -17,6 +17,8 @@ Clone the repository or download the zip and expand in an empty directory.
 
 The file `collapser.js` contains the class Collapser. Call the method `toggleSelectionCollapse()` from your `Ace` editor container when you want to collapse selections. Calling the method when no text is selected has no effect on the appearance of the edit session.
 
+Note: to load `collapser.js` as an es6 module, uncomment the export statement (the last line) in said file.
+
 ## Example
 
 To see the utility in action, open `examples/collapser.html` in your favorite browser. This example, complete with a `JSON` tester file, provides two buttons: one to open the search box, and another to collapse selections. Virst, search for some text, preferably a string that appears multiple times, like "donkey". Then click on the "Collapse search hits/multiselections" button.
