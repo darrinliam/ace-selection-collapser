@@ -1,0 +1,27 @@
+
+#editor { 
+	position: absolute;
+	top: 100px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.buttonRow {
+	display: flex;
+	justify-content: center;
+	margin: 25px;
+}
+
+.btn {
+	font-family: 'Trebuchet MS', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.msgBar {
+	font-family: 'Trebuchet MS', sans-serif;
+	text-align: center;
+	color: red;
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "ace-search-collapser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "collapser.js",
+  "scripts": {
+    "test": "echo \"Open mocha_tests\/testrunner.html in a browser.\" && exit 0",
+    "lint": "eslint **/*.js"
+  },
+  "author": "Darrin DuFord",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.23.0"
+  },
+  "dependencies": {}
+}

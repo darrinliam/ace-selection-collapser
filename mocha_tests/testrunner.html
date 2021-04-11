@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../examples/sampleEditorContainer.css"/>
+<link rel="stylesheet" href="./node_modules/mocha/mocha.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>ACE selection collapser</title>
+</head>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+<script src="../Collapser.js"></script> 
+<script src="../examples/sampleEditorContainer.js"></script> 
+
+<div id="mocha"></div>
+<script src="./node_modules/mocha/mocha.js"></script>
+<script src="./node_modules/chai/chai.js"></script>
+<script>
+    mocha.ui('bdd'); 
+    mocha.reporter('html');
+    let expect = chai.expect;
+</script>
+<script src="./spec.js"></script>
+<script>
+    mocha.run();
+</script>
+
+</body>
+</html>
+
+
+
+
