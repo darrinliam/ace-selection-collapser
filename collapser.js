@@ -2,8 +2,6 @@
 
 /** Class that implements the Ace selection collapser.
  *
- * If selections are still active, the collapse button will toggle between collapsed and 
- * uncollapsed selections.
  */
 class Collapser {
 
